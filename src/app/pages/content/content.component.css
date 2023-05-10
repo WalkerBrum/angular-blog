@@ -1,0 +1,36 @@
+ .container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin: 20px;
+ }
+
+ .content__cover > img {
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+  border-radius: 5px;
+  border: 5px solid rgb(144, 144, 144);
+  margin-bottom: 20px;
+ }
+
+ .content__title > hr{
+  margin: 20px 0;
+ }
+
+ .content__description > p {
+  color: gray;
+  margin-top: 15px;
+  text-indent: 1.5rem;
+  line-height: 1.5rem;
+ }
+
+ @media (max-width: 550px) {
+  .content__cover > img {
+    width: 100%;
+    min-width: 100%;
+  }
+ }
+
+

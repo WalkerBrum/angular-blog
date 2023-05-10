@@ -1,5 +1,5 @@
-.container__menu-title {
-  width: 100vw
+.container__menu-title hr {
+  width: 100vw;
 }
 
 .container__menu-title > h1 {
@@ -11,5 +11,23 @@
 
 .container__menu-title > hr {
   margin-top: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 950px) {
+  .container__menu-title > h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container__menu-title > h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container__menu-title > h1 {
+    font-size: 25px;
+  }
 }

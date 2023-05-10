@@ -22,3 +22,54 @@
   color: gray;
   margin-top: 10px;
 }
+
+@media (max-width: 1150px) {
+  .container__big-card {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 800px;
+    margin-bottom: 30px;
+  }
+
+  .big-card__photo > img {
+    width: 100%;
+  }
+
+  .big__card-section {
+    width: 400px;
+  }
+}
+
+@media (max-width: 811px) {
+  .container__big-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .big-card__photo > img {
+    width: 100%;
+  }
+
+  .big__card-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .big-card__photo > img {
+    min-width: 0;
+    max-width: 350px;
+  }
+
+  .big__card-section {
+    margin: 20px;
+  }
+
+  .container__big-card {
+    width: 90%;
+  }
+}

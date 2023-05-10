@@ -1,0 +1,13 @@
+<div class="container__content">
+  <div class="content__cover">
+    <img src="{{ photCover }}" alt="" srcset="">
+  </div>
+  <div class="content__title">
+    <h2>{{ contentTitle }}</h2>
+    <hr>
+  </div>
+  <div class="content__description">
+    <a [routerLink]="['']"><< VOLTAR</a>
+    <p *ngFor="let descriptions of contentDescription">{{ descriptions }}</p>
+  </div>
+</div>

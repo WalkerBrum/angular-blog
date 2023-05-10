@@ -1,3 +1,4 @@
+import { identifierName } from '@angular/compiler';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -11,7 +12,10 @@ export class BigCardComponent {
 
   @Input()
   cardTitle: string = "";
-  
+
   @Input()
   cardDescription: string = "";
+
+  @Input()
+  id: string = "0";
 }
