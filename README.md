@@ -1,27 +1,56 @@
-# Blog
+# **Blog sobre Tecnologia** 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+## **Descrição** 
+Blog para divulgar dicas e novidades sobre tecnologia. 
 
-## Development server
+<hr>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## **Acessar Aplicação**
+[Deploy Blog](https://angular-blog-ashen.vercel.app/)
 
-## Code scaffolding
+<hr>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## **Objetivos**
+Criar um blog utilizando Typescript e Angular;
 
-## Build
+## **Tecnologias**
+Este projeto foi desenvolvido com as seguintes tecnologias:
+- HTML;
+- CSS;
+- TypeScript;
+- Angular;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<hr>
 
-## Running unit tests
+## **Requerimentos**
+- Node.js;
+- npm ou yarn;
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## **Instalação**
+`npm install`
 
-## Running end-to-end tests
+## Start Projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Primeiro, execute o servidor de desenvolvimento:
 
-## Further help
+```bash
+npm start
+# or
+ng s -o
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Abra [http://localhost:4200/](http://localhost:4200/) com seu navegador para ver o resultado.
+
+## **Clone do Projeto**
+`https://github.com/WalkerBrum/angular-blog.git`
+
+# 📷 Demonstração da Aplicação
+
+<img src="public/images/home-page.png" title="Print screen da página inicial"/>
+<img src="public/images/create-card.png" title="Print screen do modal de novo card"/>
+<img src="public/images/delete-card.png" title="Print screen do modal de exluir"/>
+<img src="public/images/home-page-mobile.png" title="Print screen da páginal inicial do mobile"/>
+
+
+## **Autor e Agradecimento**
+Eu Walker Lobato como desenvolvedor do projeto sou grato por poder participar desse desafio técnico promovido pela Ímpar, pois foi um grande oportunidade para o desenvolvimento das minhas hard skills, aprimorando os meus conhecimentos na construção de aplicações web.
