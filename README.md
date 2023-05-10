@@ -46,10 +46,8 @@ Abra [http://localhost:4200/](http://localhost:4200/) com seu navegador para ver
 
 # 📷 Demonstração da Aplicação
 
-<img src="public/images/home-page.png" title="Print screen da página inicial"/>
-<img src="public/images/create-card.png" title="Print screen do modal de novo card"/>
-<img src="public/images/delete-card.png" title="Print screen do modal de exluir"/>
-<img src="public/images/home-page-mobile.png" title="Print screen da páginal inicial do mobile"/>
+<img src="src/assets/images/home-page.png" title="Print screen da página inicial"/>
+<img src="src/assets/images/content-page.png" title="Print screen do modal de novo card"/>
 
 
 ## **Autor e Agradecimento**
